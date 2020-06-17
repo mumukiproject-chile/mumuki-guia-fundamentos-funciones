@@ -1,0 +1,46 @@
+subject: hayTableroYBolitasAl
+
+examples:
+ - arguments:
+   - Este
+   - Rojo
+   initial_board: |
+     GBB/1.0
+     size 2 2
+     cell 1 0 Rojo 1
+     cell 0 1 Azul 1
+     head 0 0
+   return: 'True'
+
+ - arguments:
+   - Oeste
+   - Rojo
+   initial_board: |
+     GBB/1.0
+     size 2 2
+     cell 1 0 Rojo 1
+     cell 0 1 Azul 1
+     head 0 0
+   return: 'False'
+   
+ - arguments:
+   - Este
+   - Azul
+   initial_board: |
+     GBB/1.0
+     size 2 2
+     cell 1 0 Rojo 1
+     cell 0 1 Azul 1
+     head 0 0
+   return: 'False'
+   
+ - arguments:
+   - Norte
+   - Azul
+   initial_board: |
+     GBB/1.0
+     size 2 2
+     cell 1 0 Rojo 1
+     cell 0 1 Azul 1
+     head 0 0
+   return: 'True'

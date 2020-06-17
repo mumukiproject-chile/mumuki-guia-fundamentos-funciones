@@ -1,0 +1,12 @@
+function hayBolitasAl(direccion, color) {
+    Mover(direccion)
+    return (hayBolitas(color))
+}
+
+function estoyRodeadoDe(color) {
+    return (hayBolitasAl(Norte, color) && hayBolitasAl(Este, color) && hayBolitasAl(Sur, color) && hayBolitasAl(Oeste, color))
+}
+
+function estoyEnUnBorde() {
+    return (not puedeMover(Norte) || not puedeMover(Este) || not puedeMover(Sur) || not puedeMover(Oeste))
+}
