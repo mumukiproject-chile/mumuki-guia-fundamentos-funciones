@@ -1,1 +1,1 @@
-Ya tenés una forma de determinar si hay bolitas en **una dirección**. Combiná eso con el **conectivo lógico** que corresponda y tendrás tu nueva función andando.
+Ya tienes una forma de determinar si hay bolitas en **una dirección**. Combina eso con el **conectivo lógico** que corresponda y tendrás tu nueva función.

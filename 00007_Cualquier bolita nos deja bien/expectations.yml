@@ -1,5 +1,5 @@
 ---
 expectations:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: hayAlgunaBolita
-  inspection: HasUsage:hayBolitas
+  - !ruby 
+    binding: hayAlgunaBolita
+    inspection: HasUsage:hayBolitas

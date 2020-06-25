@@ -1,8 +1,8 @@
 ---
 expectations:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: hayLimite
-  inspection: HasUsage:estoyRodeadoDe
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: hayLimite
-  inspection: HasUsage:estoyEnUnBorde
+  - !ruby 
+    binding: hayLimite
+    inspection: HasUsage:estoyRodeadoDe
+  - !ruby 
+    binding: hayLimite
+    inspection: HasUsage:estoyEnUnBorde

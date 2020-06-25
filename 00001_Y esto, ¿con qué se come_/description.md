@@ -1,4 +1,4 @@
-Tomate unos pocos minutos y tratá de entender qué hace este procedimiento:
+Tómate unos minutos y trata de entender qué hace este procedimiento:
 
 ```gobstones
 procedure MoverSegunBolitas() {
@@ -10,4 +10,4 @@ procedure MoverSegunBolitas() {
 }
 ```
 
-> Cuando lo logres interpretar (o te canses :stuck_out_tongue_closed_eyes:), presioná _Enviar_ y mirá el resultado.
+> Cuando logres interpretarlo (o te canses :stuck_out_tongue_closed_eyes:), presiona _Enviar_ y mira el resultado.
