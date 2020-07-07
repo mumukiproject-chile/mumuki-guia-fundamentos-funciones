@@ -1,5 +1,5 @@
 ---
 expectations:
-  - !ruby 
-    binding: MoverSegunBolitas
-    inspection: HasUsage:nroBolitasTotal
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: MoverSegunBolitas
+  inspection: HasUsage:nroBolitasTotal

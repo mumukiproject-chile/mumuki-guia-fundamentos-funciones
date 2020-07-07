@@ -1,5 +1,5 @@
 ---
 expectations:
-  - !ruby 
-    binding: rojoEsDominante
-    inspection: HasUsage:todasExcepto
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: rojoEsDominante
+  inspection: HasUsage:todasExcepto

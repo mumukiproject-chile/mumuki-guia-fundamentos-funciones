@@ -1,8 +1,0 @@
----
-expectations:
-  - !ruby 
-    binding: hayTableroYBolitasAl
-    inspection: HasUsage:hayBolitasAl
-  - !ruby 
-    binding: hayTableroYBolitasAl
-    inspection: HasUsage:puedeMover

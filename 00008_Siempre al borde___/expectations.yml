@@ -1,5 +1,5 @@
 ---
 expectations:
-  - !ruby 
-    binding: estoyEnUnBorde
-    inspection: HasUsage:puedeMover
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: estoyEnUnBorde
+  inspection: HasUsage:puedeMover

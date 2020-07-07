@@ -1,8 +1,8 @@
 ---
 expectations:
-  - !ruby 
-    binding: MoverSegunBolitas
-    inspection: HasIf
-  - !ruby 
-    binding: MoverSegunBolitas
-    inspection: HasUsage:nroBolitas
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: MoverSegunBolitas
+  inspection: HasIf
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: MoverSegunBolitas
+  inspection: HasUsage:nroBolitas
