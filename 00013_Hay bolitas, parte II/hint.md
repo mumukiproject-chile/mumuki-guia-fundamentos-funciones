@@ -1,1 +1,0 @@
-La parte de ver si **hay bolitas** ya está resuelta, sólo te queda preguntar **antes** si se **puede mover** en la dirección dada.

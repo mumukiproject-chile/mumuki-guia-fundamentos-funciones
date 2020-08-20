@@ -1,3 +1,0 @@
-¿Viste que no hizo BOOM en el caso en que no se podía mover? Eso es porque Gobstones cuenta con un mecanismo llamado **cortocircuito**, que evita que **se calculen expresiones innecesarias**.
-
-Si el `puedeMover` da falso **no es necesario computar** lo que viene después del `&&`, porque ya sabemos que el conjunto será falso. Es por esto que `hayBolitasAl` no llega a ejecutarse (y entonces nos salvamos del BOOM). :grin:
