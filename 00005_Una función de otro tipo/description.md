@@ -1,10 +1,26 @@
 Como ya sabes, las expresiones no sólo sirven para operar con números. Vamos a construir ahora una función que denota un valor **booleano** (`True` / `False`).
 
-Lo que queremos averiguar es si el color rojo es dominante dentro de una celda. Para que sea dominante, su cantidad de bolitas debe **ser mayor** que la suma de las bolitas de los otros colores.
+Lo que queremos averiguar es si el color rojo es dominante dentro de una celda. Veamos algunos ejemplos. 
 
-Por ejemplo, si ejecutamos `rojoEsDominante()` sobre una celda con...
+En este casillero:
 
-* ...2 rojas, 1 verde, 3 negras, 4 azules, **denota** `False` (hay 2 bolitas rojas frente a 8 de otros colores)
-* ...9 rojas, 1 verde, 3 negras, 4 azules, **denota** `True` (hay 9 bolitas rojas frente a 8 de otros colores)
+<gs-board>
+ GBB/1.0
+ size 1 1
+ cell 0 0 Rojo 2 Verde 1 Negro 3 Azul 4
+ head 0 0
+<gs-board>
 
-> Escribe la función `rojoEsDominante()`.
+`rojoEsDominante()` **retorna** `False` (hay 2 bolitas rojas contra 8 de otros colores).
+Pero en este otro:
+
+<gs-board>
+ GBB/1.0
+ size 1 1
+ cell 0 0 Rojo 9 Verde 1 Negro 3 Azul 4
+ head 0 0
+<gs-board>
+
+`rojoEsDominante()` **retorna** `True` (hay 9 bolitas rojas contra 8 de otros colores)
+
+> Escribe la función `rojoEsDominante()` que nos diga si la cantidad de bolitas rojas **es mayor** que la suma de las bolitas de los otros colores. En la _Biblioteca_ está `todasExcepto(color)` lista para ser invocada. :wink:
