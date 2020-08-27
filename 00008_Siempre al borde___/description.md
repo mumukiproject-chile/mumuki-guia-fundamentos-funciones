@@ -4,4 +4,4 @@ Te recordamos los operadores lógicos que vimos hasta ahora:
 * **Conjunción:** determina si se cumplen **ambas** condiciones —ejemplo: `puedeMover(Norte) && puedeMover(Sur)`.
 * **Disyunción:** determina si se cumple **alguna** de las condiciones —ejemplo: `esInteligente() || esBuenaOnda()`.
 
-> Con la ayuda de esa tablita, escribe la función `estoyEnUnBorde()` que determine si el cabezal está parado en algún borde.
+> Con la ayuda de esa tablita, define la función `estoyEnUnBorde()` que determine si el cabezal está parado en algún borde.
