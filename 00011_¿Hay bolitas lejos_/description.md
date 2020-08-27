@@ -35,4 +35,4 @@ Por ejemplo: `hayBolitasLejosAl(Norte, Verde, 4)` indica si hay alguna bolita Ve
   <tbody>
 </table>
 
-> Programa la función `hayBolitasLejosAl(direccion, color, distancia)`.
+> Define la función `hayBolitasLejosAl(direccion, color, distancia)`.
