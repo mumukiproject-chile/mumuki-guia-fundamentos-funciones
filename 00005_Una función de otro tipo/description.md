@@ -1,4 +1,4 @@
-Como ya sabes, las expresiones no sólo sirven para operar con números. Vamos a construir ahora una función que denota un valor **booleano** (`True` / `False`).
+Como ya sabes, las expresiones no sólo sirven para operar con números. Vamos a construir ahora una función que retorna un valor **booleano** (`True` / `False`).
 
 Lo que queremos averiguar es si el color rojo es dominante dentro de una celda. Veamos algunos ejemplos. 
 
@@ -23,4 +23,4 @@ Pero en este otro:
 
 `rojoEsDominante()` **retorna** `True` (hay 9 bolitas rojas contra 8 de otros colores)
 
-> Escribe la función `rojoEsDominante()` que nos diga si la cantidad de bolitas rojas **es mayor** que la suma de las bolitas de los otros colores. En la _Biblioteca_ está `todasExcepto(color)` lista para ser invocada. :wink:
+> Define la función `rojoEsDominante()` que nos diga si la cantidad de bolitas rojas **es mayor** que la suma de las bolitas de los otros colores. En la _Biblioteca_ está `todasExcepto(color)` lista para ser invocada. :wink:
