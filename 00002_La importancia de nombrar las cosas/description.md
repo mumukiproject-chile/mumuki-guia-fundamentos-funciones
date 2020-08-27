@@ -2,7 +2,7 @@ Como vimos, el problema de lo anterior era la falta de **división en subtareas*
 
 Entonces, lo que nos está faltando es algún mecanismo para poder **darle un nombre** a esa **expresión compleja**; algo análogo a los **procedimientos**, pero que sirva para encapsular expresiones.
 
-La buena noticia es que Gobstones nos permite hacer esto, y la herramienta para ello es construir una **función**, que se escribe así:
+La buena noticia es que Gobstones nos permite hacer esto, y la herramienta para ello es construir una **función**, que se define así:
 
 ```gobstones
 function nroBolitasTotal() {
